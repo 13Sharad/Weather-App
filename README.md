@@ -1,4 +1,4 @@
-Weather-App
+# Weather-Navigator
 
 Currently, two official plugins are available:
 
@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 Description
 
 
-This Weather App is a React-based application developed with Vite that provides real-time weather information for any city worldwide. It fetches weather data from the OpenWeatherMap API and displays key metrics, including temperature, humidity, wind speed, and an appropriate weather icon. The app features a dynamic background that changes according to the current weather conditions, enhancing the visual experience for users.
+This Weather Navigator is a React-based application developed with Vite that provides real-time weather information for any city worldwide. It fetches weather data from the OpenWeatherMap API and displays key metrics, including temperature, humidity, wind speed, and an appropriate weather icon. The app features a dynamic background that changes according to the current weather conditions, enhancing the visual experience for users.
 
 
 Features

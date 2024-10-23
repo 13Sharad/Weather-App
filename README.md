@@ -18,11 +18,11 @@ Features
 
 3.Weather Metrics: Displays essential weather information:
 
-   Temperature (°C).
+      Temperature (°C).
    
-   Humidity (%).
+      Humidity (%).
    
-   Wind Speed (km/h).
+      Wind Speed (km/h).
    
 4.Responsive Design: The app is designed to be user-friendly and responsive, adapting to various screen sizes.
 

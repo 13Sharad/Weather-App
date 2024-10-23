@@ -2,6 +2,8 @@
 
 Description
 
+Go to my-new-branch. All code of weather app is available.
+
 This Weather App is a React-based application developed with Vite that provides real-time weather information for any city worldwide. It fetches weather data from the OpenWeatherMap API and displays key metrics, including temperature, humidity, wind speed, and an appropriate weather icon. The app features a dynamic background that changes according to the current weather conditions, enhancing the visual experience for users.
 
 Features

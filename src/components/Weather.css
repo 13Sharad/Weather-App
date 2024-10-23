@@ -1,0 +1,117 @@
+.weather {
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #36b5b5, #346d8f);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.weather:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.search-bar input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #333;
+    background: #ebfffc;
+    font-size: 18px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.search-bar input:focus {
+    background-color: #e0f7fa;
+    box-shadow: 0 0 10px rgba(80, 10, 228, 0.4);
+}
+
+.search-bar img {
+    width: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.search-bar img:hover {
+    transform: scale(1.1);
+}
+
+.weather-icon {
+    width: 150px;
+    margin: 30px 0;
+    transition: transform 0.3s ease;
+}
+.weather-icon:hover {
+    transform: rotate(10deg);
+}
+
+.temperature {
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location {
+    color: #fff;
+    font-size: 40px;
+}
+
+.weather-data {
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.weather-data .col span {
+    display: block;
+    font-size: 16px;
+}
+
+.weather-data .col img {
+    width: 26px;
+    margin-top: 10px;
+}
+/* Responsive Design */
+ 
+@media (max-width: 768px) {
+    .weather {
+        padding: 20px;
+    }
+
+    .temperature {
+        font-size: 60px;
+    }
+
+    .location {
+        font-size: 30px;
+    }
+
+    .weather-icon {
+        width: 120px;
+    }
+
+    .weather-data .col {
+        font-size: 18px;
+    }
+} 
